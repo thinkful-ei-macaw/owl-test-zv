@@ -7,7 +7,7 @@ export default function List(props) {
     <section>
       <div>
 
-        {participants.map((participant) =>
+        {participants.sort((a,b)=>a.inSession ? -1 : 1).map((participant) =>
 
           <Participant
             key={participant.id}

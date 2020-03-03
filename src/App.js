@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Participant from './Participant';
+// import Participant from './Participant';
 import List from './Participants';
 import './App.css';
 import './store.js';
