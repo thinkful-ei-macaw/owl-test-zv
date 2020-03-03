@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function person (props){
+export default function person(props) {
     return (
         <div>
             <div className="avatar">
@@ -8,16 +8,15 @@ export default function person (props){
             </div>
             <ul>
                 <li>
-                   {props.name} 
+                    {props.name}
                 </li>
-                <li>
+                <ul>
                     <div>
-                    {props.onStage} {props.inSession} 
+                        {props.onStage === true ? <p>On Stage</p> : ""}
+                        {props.inSession === true ? <p>In Session</p> : ""}
                     </div>
-                    
-                </li>
+                </ul>
             </ul>
         </div>
-    );
-};
-
+    )
+}

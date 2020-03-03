@@ -8,7 +8,7 @@ export default function List(props) {
       <div>
 
         {participants.map((participant) =>
-         
+
           <Participant
             key={participant.id}
             name={participant.name}
@@ -16,7 +16,7 @@ export default function List(props) {
             inSession={participant.inSession}
             avatar={participant.avatar}
           />
-        )};
+        )}
 
       </div>
     </section>

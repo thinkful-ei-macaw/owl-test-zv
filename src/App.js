@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Participant from './Participant';
+import List from './Participants';
 import './App.css';
+import './store.js';
 
 
-function App() {
-  return (
-    <main className='App'>
-      {/* content goes here */}
-    </main>
-  );
+class App extends Component {
+  static defaultProps = {
+    participants: []
+  }
+
+  render() {
+    return (
+      <main className='App'>
+        <List />
+      </main>
+    )
+  }
 }
+
+
 
 export default App;
