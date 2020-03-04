@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the UI as expected 1`] = `
+<section>
+  <div>
+    <div>
+      <div
+        className="avatar"
+      >
+        <img
+          alt="user"
+          src="https://robohash.org/itaquevoluptatumrerum.jpg?size=200x200&set=set1"
+        />
+      </div>
+      <ul>
+        <li>
+          Koren Templeton
+        </li>
+        <ul>
+          <div>
+            <p>
+              On Stage
+            </p>
+            <p>
+              In Session
+            </p>
+          </div>
+        </ul>
+      </ul>
+    </div>
+    <div>
+      <div
+        className="avatar"
+      >
+        <img
+          alt="user"
+          src="https://robohash.org/doloredolorescupiditate.jpg?size=200x200&set=set1"
+        />
+      </div>
+      <ul>
+        <li>
+          Caty Flucker
+        </li>
+        <ul>
+          <div>
+            
+            <p>
+              In Session
+            </p>
+          </div>
+        </ul>
+      </ul>
+    </div>
+    <div>
+      <div
+        className="avatar"
+      >
+        <img
+          alt="user"
+          src="https://robohash.org/etexercitationemassumenda.jpg?size=200x200&set=set1"
+        />
+      </div>
+      <ul>
+        <li>
+          Frank Runciman
+        </li>
+        <ul>
+          <div>
+            
+            <p>
+              In Session
+            </p>
+          </div>
+        </ul>
+      </ul>
+    </div>
+    <div>
+      <div
+        className="avatar"
+      >
+        <img
+          alt="user"
+          src="https://robohash.org/iustodoloremqueinventore.jpg?size=200x200&set=set1"
+        />
+      </div>
+      <ul>
+        <li>
+          Ashla Attwool
+        </li>
+        <ul>
+          <div>
+            <p>
+              On Stage
+            </p>
+            <p>
+              In Session
+            </p>
+          </div>
+        </ul>
+      </ul>
+    </div>
+    <div>
+      <div
+        className="avatar"
+      >
+        <img
+          alt="user"
+          src="https://robohash.org/utlaborumfugit.jpg?size=200x200&set=set1"
+        />
+      </div>
+      <ul>
+        <li>
+          Axe Kubicka
+        </li>
+        <ul>
+          <div>
+            
+            
+          </div>
+        </ul>
+      </ul>
+    </div>
+  </div>
+</section>
+`;

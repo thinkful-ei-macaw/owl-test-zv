@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import List from './Participants';
 import './App.css';
 import './store.js';
-
+import Stage from './Stage';
 
 class App extends Component {
   static defaultProps = {
@@ -17,7 +17,7 @@ class App extends Component {
           <List />
           </div>
         <div className="stage">
-
+          <Stage />
         </div>
         
       </main>
