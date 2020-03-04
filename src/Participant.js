@@ -1,5 +1,5 @@
 import React from 'react';
-import participants from './store';
+
 
 export default function person(props) {
 
